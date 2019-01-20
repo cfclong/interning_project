@@ -82,3 +82,11 @@ www.gaodun.com/default/meaning/zhuanti/
 ### 上面是实习两个月期间在公司做的一些项目，还有一些遇到的问题和解决方法，期间做的最多的还是帮公司改链接了....
 
 ### 当然，经过一段时间的实习，熟悉了公司对一个项目整体的开发流程，我公司是在gitlab上完成的，和github的操作基本一样，都是在git上完成。
+
+### 因为每个项目的切图都是自己完成的，所以也了解了photoshop的基本操作，也获得了新的称号"切图仔"[捂脸][捂脸][捂脸]
+
+### 在公司自己的学习时间也还是比较多的，所以平常有去学vue，node等框架，这次刚好前端团队组织了一个比赛，需要用到vue、node中的koa，还有
+
+### mongdb去完成。是组队完成的，我小组包括我三个人负责前端，三个人负责后端，用vue完成，前端代码也在本人的github里
+
+### 项目链接：https://github.com/cao-lianhui/Golden_financial_answers_questions
