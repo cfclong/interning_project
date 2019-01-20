@@ -25,7 +25,7 @@
     
 }
 
-www.gaodun.com/jinrong/zqbeikao/zhuanti/
+页面链接：www.gaodun.com/jinrong/zqbeikao/zhuanti/
 
 ## 第二个包含了pc端和移动端，是分开写的，没有用响应式布局：
 
@@ -34,6 +34,8 @@ www.gaodun.com/jinrong/zqbeikao/zhuanti/
 测试的时候发现该移动端页面在华为的一款机型"P20"上出现了问题，页面上本来居中的盒子宽度向两边延伸了，
 
 可是在其他手机上却可以正常居中显示，之后找到的解决办法是居中的盒子改为采用百分比的设置宽度，就解决问题了。
+
+页面链接：
 
 pc：www.gaodun.com/jinrong/economist/zhuanti/
 
@@ -77,15 +79,15 @@ $("body").delegate(".lxb-cb-input","blur",function(){
 
 浏览器的最上面平行，具体可以进入项目查看js代码，项目名称为:securities
 
-www.gaodun.com/jinrong/securities/zhuanti/
+页面链接：www.gaodun.com/jinrong/securities/zhuanti/
 
 ## 第四个页面为公司的双十二活动页面，我负责pc端：
 
-www.gaodun.com/touzilicai/doubletwelve/zhuanti/
+页面链接：www.gaodun.com/touzilicai/doubletwelve/zhuanti/
 
 ## 第五个页面为元旦活动页面，也是负责pc端：
 
-www.gaodun.com/wangxiao/newyear/zhuanti/
+页面链接：www.gaodun.com/wangxiao/newyear/zhuanti/
 
 ## 第六个页面，pc端和移动端都是我负责：
 
@@ -95,7 +97,7 @@ pc：www.gaodun.com/touzilicai/cpds/zhuanti/
 
 ## 第七个页面因为时间问题，UI是需求方让我自己想的，为移动端页面：
 
-www.gaodun.com/default/meaning/zhuanti/
+页面链接：www.gaodun.com/default/meaning/zhuanti/
 
 ### 上面是实习两个月期间在公司做的一些项目，还有一些遇到的问题和解决方法，期间做的最多的还是帮公司改链接了....
 
