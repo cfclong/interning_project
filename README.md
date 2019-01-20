@@ -45,6 +45,8 @@ phoneBlur.onblur = function(){
 	
 }
 	
+//下面是用事件委托的方式给body绑定失去焦点事件.
+	
 $("body").delegate(".lxb-cb-input","blur",function(){
 	  
   ele.scrollIntoView(true);
