@@ -1,0 +1,87 @@
+html,body{
+	width:100%;
+	height:100%;
+}
+
+/*大背景区域*/
+.bg_container{
+	background:url(../images/bg.png) no-repeat center center;
+	height:4324px;
+	overflow:hidden;
+}
+
+/*内容区域*/
+.inner{
+	width:1200px;
+	min-height:1000px;
+	margin:0 auto;
+}
+
+/*按钮区域*/
+.btn_box{
+	margin-top:468px;
+	width:100%;
+	height:64px;
+	text-align:center;
+}
+.btn_box img{
+	display:inline-block;
+	width:323px;
+	height:100%;
+}
+
+/*操盘手区域*/
+.create_container{
+	width:100%;
+	height:164px;
+	margin-top:422px;
+	text-align:center;
+}
+.create_container .create_box{
+	position:relative;
+	display:inline-block;
+	width:1045px;
+	height:100%;
+}
+.create_container .create_box img{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.create_container .create_box .go{
+	position:absolute;
+	right:22px;
+	top:17px;
+	width:119px;
+	height:119px;
+	border-radius:50%;
+}
+.btn_mask{
+	cursor:pointer;
+}
+
+/*弹窗区域*/
+.mask{
+	position:fixed;
+	top:0;
+	left:0;
+	display:none;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.5);
+}
+.mask .mask_box{
+	margin:200px auto;
+	width:300px;
+	height:auto;
+	border:1px solid transparent;
+	text-align:center;
+}
+.mask .mask_box .delete{
+	float:right;
+	margin-top:-30px;
+	cursor:pointer;
+	margin-right:-20px;
+}

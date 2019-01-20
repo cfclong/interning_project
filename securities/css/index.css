@@ -1,0 +1,221 @@
+.main-container{
+	margin:0 auto;
+	width:100%;
+	max-width:750px;
+	min-width:320px;
+	background-color:#fff1e6;
+}
+
+/*头部区域*/
+header{
+	width:100%;
+	min-height:1.12rem;
+	padding-top:0.25rem;
+	background-color:white;
+}
+header p{
+	display:inline-block;
+}
+header p:first-child{
+	margin-left:0.3rem;
+	margin-right:0.23rem;
+}
+header p:first-child img{
+	width:1.68rem;
+	height:0.62rem;
+}
+header p:last-child{
+	border-left:1px solid #292929;
+	width:4.98rem;
+	text-align:center;
+}
+header p:last-child img{
+	width:4.54rem;
+	height:0.53rem;
+}
+
+/*标题区域*/
+.title{
+	width:100%;
+	height:2.06rem;
+	text-align:center;
+	/*border:1px solid black;*/
+	overflow:hidden;
+}
+.title p{
+	font-size:0.38rem;
+}
+.title p:first-child{
+	margin-top:0.52rem;
+}
+.title p:nth-child(2){
+	color:#e3604a;
+}
+.title p:last-child{
+	transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	color:#95632e;
+}
+
+/*提交信息区域*/
+.info-container{
+	width:100%;
+	min-height:8.5rem;
+	/*background:blue;*/
+	padding-left:0.2rem;
+	padding-right:0.2rem;
+}
+.info-container .info-content{
+	position:relative;
+	z-index:1;
+	width:7rem;
+	margin:0 auto;
+	min-height:4rem;
+	border-radius:0.1rem;
+	background-color:white;
+}
+.info-container .info-content::after{
+	content:"";
+	display:block;
+	position:absolute;
+	top:0.14rem;
+	left:-0.1rem;
+	z-index:-1;
+	width:7.2rem;
+	min-height:8.54rem;
+	background:white;
+	border-radius:0.1rem;
+	box-shadow:1px 1px 20px 2px rgba(0,0,0,0.2);
+}
+.info-container .info-content .choose-info{
+	width:100%;
+	min-height:2rem;
+	/*border:1px solid black;*/
+	overflow:hidden;
+	margin-top:0.16rem;
+	padding-left:0.16rem;
+}
+.info-container .info-content .choose-info h3{
+	margin-top:0.5rem;
+	font-size:0.28rem;
+}
+.info-container .info-content .choose-info ul{
+	margin-top:0.28rem;
+	margin-left:0.04rem;
+}
+.info-container .info-content .choose-info ul li{
+	position:relative;
+	float:left;
+	width:1.46rem;
+	height:0.38rem;
+	border-radius:0.19rem;
+	text-align:center;
+	color:#464646;
+	margin-left:0.3rem;
+	/*border:1px solid black;*/
+}
+.info-container .info-content .choose-info ul li:first-child{
+	margin-left:0;
+}
+.info-container .info-content .choose-info ul li input[type="radio"]{
+	position:abolute;
+	top:0;
+	left:0;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	border:1px solid #464646;
+	width:100%;
+	height:100%;
+	outline:none;
+	border-radius:0.19rem;
+}
+.active{
+	color:white;
+}
+.info-container .info-content .choose-info ul li input:checked{
+	background-color:#e3604a;
+	border:none;
+}
+.info-container .info-content .choose-info ul li label{
+	position:absolute;
+	top:0;
+	left:0;
+	font-size:0.23rem;
+	width:100%;
+	height:100%;
+	text-align:center;
+	line-height:0.38rem;
+	border-radius:0.19rem;
+} 
+.info-container .info-content .choose-info .submit-info{
+	width:100%;
+	min-height:2rem;
+	margin-top:0.5rem;
+	/*border:1px solid blue;*/
+	text-align:center;
+}
+/*兼容chrome safari*/
+.info-container .info-content .choose-info .submit-info input::-webkit-input-placeholder{
+	color:#a8a8a8;
+}
+/*兼容Firefox 4 to 18*/
+.info-container .info-content .choose-info .submit-info input:-moz-placeholder{
+	color:#a8a8a8;
+}
+/*兼容Firefox 19+*/
+.info-container .info-content .choose-info .submit-info input::-moz-placeholder{
+	color:#a8a8a8;
+}
+.info-container .info-content .choose-info .submit-info .info{
+	width:4.72rem;
+	height:0.56rem;
+	font-size:0.25rem;
+	padding-left:0.36rem;
+	margin-top:0.2rem;
+	border:1px solid #eeeeee;
+	background-color:#eeeeee;
+	color:#black;
+	border-radius:0.28rem;
+	outline:none;
+}
+.info-container .info-content .choose-info .submit-info .submit{
+	outline:none;
+	background-color:#e3604a;
+	border:1px solid #e3604a;
+	color:white;
+	width:4.86rem;
+	height:0.56rem;
+	margin-top:0.2rem;
+	text-align:center;
+	line-height:0.56rem;
+	border-radius:0.28rem;
+	font-size:0.29rem;
+}
+.info-container .info-content .choose-info p{
+	color:#eb6a42;
+	width:100%;
+	margin-top:0.44rem;
+	text-align:center;
+	font-size:0.23rem;
+	margin-bottom:0.54rem;
+}
+footer{
+	height:1.64rem;
+	width:100%;
+	padding-left:0.34rem;
+	padding-right:0.34rem;
+	padding-top:0.54rem;
+}
+footer .copyright{
+	width:100%;
+	height:100%;
+	border-top:1px solid white;
+	text-align:center;
+	font-size:0.22rem;
+	padding-top:0.4rem;
+	color:#292929;
+}
