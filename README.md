@@ -23,11 +23,39 @@ pc：www.gaodun.com/jinrong/economist/zhuanti/
 
 ## 第三个页面为移动端页面：
 
-在做这个页面时也遇到了一个问题，同样是在手机app端测试的时候出现的，是在iphone5上遇到的，但这个问题不是
+在做这个页面时也遇到了一个问题，同样是在手机app端测试的时候出现的，是在iphone5上遇到的，主要和输入框有关
 
-很好描述，最后的解决办法是采用了事件委托的方式，给body绑定一个失去焦点的事件，委托给它的子级元素解决的，
+但这个问题不是很好描述，先附上代码片段：
 
-同时调用了"scrollIntoView(true)"函数去解决的，具体可以进入项目查看js代码，项目名称为:securities
+var nameBlur = document.getElementById("name");
+
+var phoneBlur = document.getElementById("phone");
+
+var ele = document.querySelector("body");
+
+nameBlur.onblur = function(){
+	
+  ele.scrollIntoView(true);
+
+}
+
+phoneBlur.onblur = function(){
+		
+  ele.scrollIntoView(true);
+	
+}
+	
+$("body").delegate(".lxb-cb-input","blur",function(){
+	  
+  ele.scrollIntoView(true);
+	
+});
+
+解决办法是采用了事件委托的方式，给body和输入框绑定一个失去焦点的事件，委托body的子级元素解决的，
+
+同时调用了"scrollIntoView(true)"函数，这个函数传入true的意思是，当失去焦点时保持页面的顶部和
+
+浏览器的最上面平行，具体可以进入项目查看js代码，项目名称为:securities
 
 www.gaodun.com/jinrong/securities/zhuanti/
 
