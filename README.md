@@ -85,8 +85,10 @@ www.gaodun.com/default/meaning/zhuanti/
 
 ### 因为每个项目的切图都是自己完成的，所以也了解了photoshop的基本操作，同时获得了新的称号"切图仔"[捂脸][捂脸][捂脸]
 
-### 在公司自己的学习时间也还是比较多的，所以平常有去学vue，node等框架，这次刚好前端团队组织了一个比赛，需要用到vue、node中的koa，还有
+### 在公司自己的学习时间也还是比较多的，所以平常有去学vue，node等框架，这次刚好前端团队组织
 
-### mongdb去完成。是组队完成的，我小组包括我三个人负责前端，还有三个人负责后端，用vue完成，前端代码也在本人的github里
+### 了一个比赛，需要用到vue、node中的koa，还有用到mongdb数据库。是组队完成的，我小组包括我
+
+### 三个人负责前端，还有三个人负责后端，用vue完成，前端代码也在本人的github里
 
 ### 项目链接：https://github.com/cao-lianhui/Golden_financial_answers_questions
