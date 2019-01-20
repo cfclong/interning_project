@@ -87,8 +87,8 @@ www.gaodun.com/default/meaning/zhuanti/
 
 ### 在公司自己的学习时间也还是比较多的，所以平常有去学vue，node等框架，这次刚好前端团队组织
 
-### 了一个比赛，需要用到vue、node中的koa，还有用到mongdb数据库。是组队完成的，我小组包括我
+### 了一个比赛，需要用到vue、node中的koa，还有用到mongdb数据库。是组队完成的，我小组包括
 
-### 三个人负责前端，还有三个人负责后端，用vue完成，前端代码也在本人的github里
+### 我三个人负责前端，还有三个人负责后端，用vue完成，前端代码也在本人的github里
 
 ### 项目链接：https://github.com/cao-lianhui/Golden_financial_answers_questions
