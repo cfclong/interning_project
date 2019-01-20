@@ -5,11 +5,11 @@
 
 ## 下面是页面的线上链接:
 
-# 第一个移动端页面，视口为viewport，主要用rem适配：
+## 第一个移动端页面，视口为viewport，主要用rem适配：
 
 www.gaodun.com/jinrong/zqbeikao/zhuanti/
 
-# 第二个包含了pc端和移动端，是分开写的，没有用响应式布局：
+## 第二个包含了pc端和移动端，是分开写的，没有用响应式布局：
 
 做这个专题的移动端页面时在rem适配上遇到了一些问题，当时移动端已经完成提交给测试了，但是在手机app端
 
@@ -21,7 +21,7 @@ pc：www.gaodun.com/jinrong/economist/zhuanti/
 
 移动端：www.gaodun.com/jinrong/economist/zhuanti/m/
 
-# 第三个页面为移动端页面：
+## 第三个页面为移动端页面：
 
 在做这个页面时也遇到了一个问题，同样是在手机app端测试的时候出现的，是在iphone5上遇到的，但这个问题不是
 
@@ -31,21 +31,21 @@ pc：www.gaodun.com/jinrong/economist/zhuanti/
 
 www.gaodun.com/jinrong/securities/zhuanti/
 
-# 第四个页面为公司的双十二活动页面，我负责pc端：
+## 第四个页面为公司的双十二活动页面，我负责pc端：
 
 www.gaodun.com/touzilicai/doubletwelve/zhuanti/
 
-# 第五个页面为元旦活动页面，也是负责pc端：
+## 第五个页面为元旦活动页面，也是负责pc端：
 
 www.gaodun.com/wangxiao/newyear/zhuanti/
 
-# 第六个页面，pc端和移动端都是我负责：
+## 第六个页面，pc端和移动端都是我负责：
 
 pc：www.gaodun.com/touzilicai/cpds/zhuanti/
 
 移动端：www.gaodun.com/touzilicai/cpds/zhuanti/m/
 
-# 第七个页面因为时间问题，UI是需求让我自己想的，为移动端页面：
+## 第七个页面因为时间问题，UI是需求让我自己想的，为移动端页面：
 
 www.gaodun.com/default/meaning/zhuanti/
 
