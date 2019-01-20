@@ -45,7 +45,7 @@ pc：www.gaodun.com/touzilicai/cpds/zhuanti/
 
 移动端：www.gaodun.com/touzilicai/cpds/zhuanti/m/
 
-## 第七个页面因为时间问题，UI是需求让我自己想的，为移动端页面：
+## 第七个页面因为时间问题，UI是需求方让我自己想的，为移动端页面：
 
 www.gaodun.com/default/meaning/zhuanti/
 
