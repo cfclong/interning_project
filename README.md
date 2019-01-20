@@ -7,6 +7,16 @@
 
 ## 第一个移动端页面，视口为viewport，主要用rem适配：
 
+这个页面是第一个实习项目，里面的样式排版还有些问题[捂脸][捂脸][捂脸]，主要是单选框那里，布局比较差，字体没有
+
+很好的居中，不过我知道了可以通过以下属性去除单选框原有的默认样式，自己设定样式，css代码如下：
+
+.mbs-exam-footer .chooseTest input[type="radio"]{
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+}
+
 www.gaodun.com/jinrong/zqbeikao/zhuanti/
 
 ## 第二个包含了pc端和移动端，是分开写的，没有用响应式布局：
