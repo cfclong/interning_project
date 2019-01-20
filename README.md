@@ -12,9 +12,13 @@
 很好的居中，不过我知道了可以通过以下属性去除单选框原有的默认样式，自己设定样式，css代码如下：
 
 .mbs-exam-footer .chooseTest input[type="radio"]{
+
     appearance:none;
+    
     -moz-appearance:none;
+    
     -webkit-appearance:none;
+    
 }
 
 www.gaodun.com/jinrong/zqbeikao/zhuanti/
