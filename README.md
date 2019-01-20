@@ -15,7 +15,11 @@
 
     appearance:none;
     
+    /*兼容火狐 Firefox*/
+    
     -moz-appearance:none;
+    
+    /*兼容谷歌 Chrome*/
     
     -webkit-appearance:none;
     
