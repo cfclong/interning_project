@@ -3,9 +3,9 @@
 
 有用一些jQuery，zepto，less，还有ajax和后台请求数据和移动端rem适配之类的，期间遇到的一些问题，会在下面讲到。
 
-## 第一个移动端页面，视口为viewport，主要用rem适配：
+## 第一个问题：
 
-这个页面是第一个实习项目，里面的样式排版还有些问题[捂脸][捂脸][捂脸]，主要是单选框那里，布局比较差，字体没有
+第一个实习项目就遇到一些问题，里面的样式排版还有些问题[捂脸][捂脸][捂脸]，主要是单选框那里，布局比较差，字体没有
 
 很好的居中，不过我知道了可以通过以下属性去除单选框原有的默认样式，自己设定样式，css代码如下：
 
@@ -23,23 +23,15 @@
     
 }
 
-页面链接：www.gaodun.com/jinrong/zqbeikao/zhuanti/
+## 第二个问题：
 
-## 第二个包含了pc端和移动端，是分开写的，没有用响应式布局：
-
-做这个专题的移动端页面时在rem适配上遇到了一些问题，当时移动端已经完成提交给测试了，但是在手机app端
+专题的移动端页面时在rem适配上遇到了一些问题，当时移动端已经完成提交给测试了，但是在手机app端
 
 测试的时候发现该移动端页面在华为的一款机型"P20"上出现了问题，页面上本来居中的盒子宽度向两边延伸了，
 
 可是在其他手机上却可以正常居中显示，之后找到的解决办法是居中的盒子改为采用百分比的设置宽度，就解决问题了。
 
-页面链接：
-
-pc：www.gaodun.com/jinrong/economist/zhuanti/
-
-移动端：www.gaodun.com/jinrong/economist/zhuanti/m/
-
-## 第三个页面为移动端页面：
+## 第三个问题：
 
 在做这个页面时也遇到了一个问题，同样是在手机app端测试的时候出现的，是在iphone5上遇到的，主要和输入框有关
 
@@ -76,26 +68,6 @@ $("body").delegate(".lxb-cb-input","blur",function(){
 同时调用了"scrollIntoView(true)"函数，这个函数传入true的意思是，当失去焦点时保持页面的顶部和
 
 浏览器的最上面平行，具体可以进入项目查看js代码，项目名称为:securities
-
-页面链接：www.gaodun.com/jinrong/securities/zhuanti/
-
-## 第四个页面为公司的双十二活动页面，我负责pc端：
-
-页面链接：www.gaodun.com/touzilicai/doubletwelve/zhuanti/
-
-## 第五个页面为元旦活动页面，也是负责pc端：
-
-页面链接：www.gaodun.com/wangxiao/newyear/zhuanti/
-
-## 第六个页面，pc端和移动端都是我负责：
-
-pc：www.gaodun.com/touzilicai/cpds/zhuanti/
-
-移动端：www.gaodun.com/touzilicai/cpds/zhuanti/m/
-
-## 第七个页面因为时间问题，UI是需求方让我自己想的，为移动端页面：
-
-页面链接：www.gaodun.com/default/meaning/zhuanti/
 
 ### 上面是实习两个月期间做的一些项目，还有一些遇到的问题和解决方法，期间做的最多的还是帮公司改链接了...
 
