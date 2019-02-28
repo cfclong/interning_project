@@ -1,0 +1,195 @@
+
+/**中心大容器**/
+.main_container{
+    margin:0 auto;
+    min-width:320px;
+    max-width:750px;
+    min-height:4.5rem;
+    width:100%;
+    border:1px solid black;
+    background-color:#072b4f;
+    padding-bottom:50px;
+}
+
+/**头部背景图片**/
+.bg_image{
+    width:100%;
+    height:4.39rem;
+}
+.bg_image img{
+    width:100%;
+    height:4.39rem;
+}
+
+/**抢课区**/
+.season_grap{
+    width:96.26%;
+    border:1px solid black;
+    margin:0 auto 18px;
+    /*padding-bottom:100px;*/
+}
+.season_grap .grap_top{
+    width:100%;
+    height:3.6rem;
+    background:url(../images/grap1.png) no-repeat center;
+    margin-bottom:0.18rem;
+    background-size:100% 3.6rem;
+    overflow:hidden;
+}
+.season_grap .grap_bottom{
+    width:100%;
+    height:3.6rem;
+    background:url(../images/grap2.png) no-repeat center;
+    background-size:100% 3.6rem;
+    overflow:hidden;
+}
+.grap_price{
+    width:3.84rem;
+    height:0.4rem;
+    margin:1.86rem auto 0;
+    font-size:0.3rem;
+}
+.grap_price span:first-child{
+    float:left;
+    font-weight:bold;
+    color:#ffde00;
+}
+.grap_price span:last-child{
+    color:#c3c3c3;
+    float:right;
+    text-decoration:line-through;
+}
+.grap_button{
+    display:block;
+    width:2.5rem;
+    height:0.58rem;
+    margin:0.45rem auto;
+    background-color:white;
+    color:black;
+    text-align:center;
+    line-height:0.58rem;
+    border-radius:0.29rem;
+    font-size:0.24rem;
+}
+
+/**头部标题公共样式**/
+.head_icon{
+    width:96.26%;
+    height:0.48rem;
+    margin:0.52rem auto 0.17rem;
+    text-align:center;
+    /*border:1px solid white;*/
+}
+.head_icon img{
+    width:1.75rem;
+    height:0.48rem;
+}
+.m_area{
+    width:96.26666%;
+    max-width:7.18rem;
+    min-height:2rem;
+    /*border:1px solid white;*/
+    margin:0 auto;
+}
+.m_area ul{
+    position:relative;
+    width:100%;
+    height:4.4rem;
+    margin-top:0.08rem;
+}
+.m_area ul li{
+    position:absolute;
+    top:0;
+    width:3.5rem;
+    height:100%;
+    border-radius:0.06rem;
+    overflow:hidden;
+}
+.m_area ul li:first-child{
+    left:0.02rem;
+}
+.m_area ul li:last-child{
+    right:0.02rem;
+}
+.m_area ul li a{
+    display:block;
+    width:100%;
+}
+.m_area ul li .img_top{
+    width:100%;
+    height:3.64rem;
+}
+.m_area ul li .img_top img{
+    width:100%;
+    height:3.64rem;
+}
+.m_area ul li .grap_btn{
+    height:0.76rem;
+    text-align:center;
+    line-height:0.76rem;
+    color:#c71796;
+    font-size:0.24rem;
+    background-color:white;
+}
+/**特价区**/
+
+/**红包区国内财会证书**/
+.envelopes{
+    height:0.9rem;
+}
+.envelopes img{
+    height:0.9rem;
+}
+.envelopes_area ul li .grap_btn{
+    color:#2c93d5;
+}
+
+/**国际财会证书**/
+.internal img{
+    height:0.36rem;
+}
+.internal_area ul li .grap_btn{
+    color:#d54800;
+}
+
+/**金融证书**/
+.financial img{
+    width:1.26rem;
+    height:0.36rem;
+}
+.financial_area ul li .grap_btn{
+    color:#be12ff;
+}
+
+/**技能实训/个人发展**/
+.personal img{
+    width:2.44rem;
+    height:0.34rem;
+}
+.personal_area ul li .grap_btn{
+    color:#e41e66;
+}
+
+/**底部菜单栏**/
+footer{
+    width:96.26%;
+    min-height:2rem;
+    margin:0.58rem auto 0;
+    /*border:1px solid white;*/
+}
+footer ul{
+    width:100%;
+    margin-bottom:0.12rem;
+}
+footer ul li{
+    float:left;
+    margin-left:0.35rem;
+    width:1.88rem;
+    height:0.5rem;
+    text-align:center;
+    line-height:0.5rem;
+    border-radius:0.25rem;
+    background-color:#8c47d3;
+    color:white;
+    font-size:0.24rem;
+}

@@ -1,0 +1,189 @@
+
+/**大背景颜色**/
+.bg_color{
+    width:100%;
+    min-height:1200px;
+    padding-bottom:200px;
+    background-color:#072c52;
+}
+
+/**乐享开学季头部**/
+header{
+    height:914px;
+    background:url(../images/season-head.png) no-repeat center;
+}
+
+/**抢课区**/
+.season_grap{
+    position:relative;
+    width:1200px;
+    height:293px;
+    /*border:1px solid black;*/
+    margin:0 auto;
+}
+.season_grap .grap_left{
+    position:absolute;
+    width:588px;
+    height:293px;
+    left:0;
+    top:0;
+    background:url("../images/grap1.png") no-repeat center;
+}
+.grap_price{
+    width:276px;
+    height:24px;
+    margin:168px auto 12px;
+    font-size:20px;
+    /*border:1px solid white;*/
+}
+.grap_price span:first-child{
+    float:left;
+    color:#ffde00;
+}
+.grap_price span:last-child{
+    float:right;
+    color:white;
+    text-decoration:line-through;
+}
+.grap_button{
+    display:block;
+    width:210px;
+    height:40px;
+    color:black;
+    font-size:20px;
+    text-align:center;
+    line-height:40px;
+    border-radius:20px;
+    background-color:white;
+    margin:0 auto;
+}
+.season_grap .grap_right{
+    position:absolute;
+    width:588px;
+    height:293px;
+    top:0;
+    right:0;
+    background:url("../images/grap2.png") no-repeat center;
+}
+
+/**头部标题区**/
+.head_icon{
+    width:1200px;
+    min-height:35px;
+    text-align:center;
+    margin:50px auto 26px;
+    /*border:1px solid white;*/
+    overflow:hidden;
+}
+.head_icon img{
+    min-width:123px;
+}
+.financial{
+    margin:30px auto 20px;
+}
+
+/**特价区**/
+.area{
+    width:1200px;
+    min-height:400px;
+    margin:0 auto;
+    /*border:1px solid white;*/
+}
+.area ul{
+    width:100%;
+    margin-top:14px;
+}
+.area ul li{
+    float:left;
+    width:292px;
+    height:362px;
+    overflow:hidden;
+    border-radius:6px;
+}
+.area ul li:nth-child(n+2){
+    margin-left:10px;
+}
+.area ul li .img_top{
+    position:relative;
+    display:block;
+    width:292px;
+    height:302px;
+    /*background:url(../images/espec_price1.png) no-repeat center;*/
+}
+.area ul li .img_top img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:292px;
+    height:302px;
+}
+.area ul li .img_top .price{
+    position:absolute;
+    left:8px;
+    bottom:12px;
+    color:white;
+    width:276px;
+    font-size:20px;
+    margin-bottom:0;
+}
+.area ul li .img_top .price span:first-child{
+    float:left;
+}
+.area ul li .img_top .price span:last-child{
+    float:right;
+    /*text-decoration:line-through;*/
+}
+.bg_color .area:nth-child(4) ul li .img_top .price span:last-child{
+    text-decoration:line-through;
+}
+.area ul li .grap_btn{
+    display:block;
+    color:#c60095;
+    font-size:22px;
+    width:100%;
+    height:60px;
+    background-color:white;
+    text-align:center;
+    line-height:60px;
+}
+.envelopes_area ul li .grap_btn{
+    color:#2c93d5;
+}
+.internal_area ul li .grap_btn{
+    color:#d54800;
+}
+.financial_area ul li .grap_btn{
+    color:#be12ff;
+}
+.personal_area ul li .grap_btn{
+    color:#e41e66;
+}
+
+/**底部菜单栏**/
+.list{
+    width:1200px;
+    min-height:100px;
+    margin:68px auto 0;
+    /*border:1px solid white;*/
+}
+.list ul{
+    width:100%;
+    margin-top:20px;
+}
+.list ul li{
+    float:left;
+    width:190px;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    color:white;
+    background-color:#8c47d3;
+    font-size:24px;
+    border-radius:25px;
+    margin-left:6px;
+}
+.list ul li a{
+    display:block;
+    width:100%;
+    height:100%;
+}
