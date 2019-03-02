@@ -92,14 +92,16 @@ $("body").delegate(".lxb-cb-input","blur",function(){
 
 刚开始我在找是不是viewport容器里还有些属性值少添加了。
 
-我自己原来的值是这样的：<meta name="viewport" content="width=device-width,intial-scale=1.0,usre-scalable=0">
-
+我自己原来的值是这样的：
+```
+<meta name="viewport" content="width=device-width,intial-scale=1.0,usre-scalable=0">
+```
 感觉是正常的，因为已经调整好了设备宽度、默认缩放比、还有禁止用户手动缩放，所以应该没问题，不过我之后
 
 还是多添加了两个属性值：
-
+```
 <meta name="viewport" content="width=device-width,intial-scale=1.0,usre-scalable=0,minimun-scale=1.0,maximum-scale=1.0">
-
+```
 添加的属性值是最小和最大缩放比，其实感觉没必要了，因为已经设置了初始化缩放比，不过还是提交测试了，
 
 意料之中，还是没用....
