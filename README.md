@@ -8,7 +8,7 @@
 第一个实习项目就遇到一些问题，里面的样式排版还有些问题[捂脸][捂脸][捂脸]，主要是单选框那里，布局比较差，字体没有
 
 很好的居中，不过我知道了可以通过以下属性去除单选框原有的默认样式，自己设定样式，css代码如下：
-
+```
 .mbs-exam-footer .chooseTest input[type="radio"]{
 
     appearance:none;
@@ -22,6 +22,7 @@
     -webkit-appearance:none;
     
 }
+```
 
 ## 第二个问题：
 
@@ -38,7 +39,7 @@
 在做这个页面时也遇到了一个问题，同样是在手机app端测试的时候出现的，是在iphone5上遇到的，主要和输入框有关
 
 但这个问题不是很好描述，先附上代码片段：
-
+```
 var nameBlur = document.getElementById("name");
 
 var phoneBlur = document.getElementById("phone");
@@ -64,7 +65,7 @@ $("body").delegate(".lxb-cb-input","blur",function(){
   ele.scrollIntoView(true);
 	
 });
-
+```
 解决办法是采用了事件委托的方式，给body和输入框绑定一个失去焦点的事件，委托body的子级元素解决的，
 
 同时调用了"scrollIntoView(true)"函数，这个函数传入true的意思是，当失去焦点时保持页面的顶部和
