@@ -122,8 +122,8 @@ function fontAdapt(){
         //这里设置字体大小为10，方便后面计算
         $dom.style = 'font-size:10rem;';
         document.body.appendChild($dom);
-        //计算出新创建元素放大后的字体
-        var scaledFontSize = parseInt(window.getComputedStyle($dom, null).getPropertyValue('font-size'));
+        //计算出新创建元素调整后的字体大小
+        var scaledFontSize = parseInt(window.getComputedStyle($dom, null).getPropertyValue('font-size'));
         //移除新创建元素，以免影响页面布局
         document.body.removeChild($dom);
         //计算原字体和放大后字体的比例，原字体为10rem，取数字10，
