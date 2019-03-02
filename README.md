@@ -71,6 +71,108 @@ $("body").delegate(".lxb-cb-input","blur",function(){
 
 浏览器的最上面平行，具体可以进入项目查看js代码，项目名称为:securities
 
+## 第四个问题
+
+这是关于移动端页面在手机调整字体大小后内容适配的问题，作为新手我也刚好是第一次遇到，
+
+已经完成的移动端页面，正常情况下在手机上的浏览器端和App端都可以正常显示，可当测
+
+试把手机字体调大后，布局就忽然变乱了....盒子里面的内容向内挤了。说实话，刚开始感觉
+
+这种问题应该可以忽略，毕竟字体调大后，又可以调回原来的啊，而且大部分手机都是默认
+
+显示标准字体吧。而且我在移动端的meta标签里已经给viewport容器添加了相应属性值，还
+
+会出现那种错乱的情况，我能怎么办....不过后来想了想，既然你是前端工程师，搞技术的，
+
+就应该要学会解决技术问题啊，所以我还是打开了浏览器，开始动手我最熟悉的骚操作Ctrl+C、Ctrl+V...
+
+刚开始我在找是不是viewport容器里还有些属性值少添加了。
+
+我自己原来的值是这样的：<meta name="viewport" content="width=device-width,intial-scale=1.0,usre-scalable=0">
+
+感觉是正常的，因为已经调整好了设备宽度、默认缩放比、还有禁止用户手动缩放，所以应该没问题，不过我之后
+
+还是多添加了两个属性值：
+
+<meta name="viewport" content="width=device-width,intial-scale=1.0,usre-scalable=0,minimun-scale=1.0,maximum-scale=1.0">
+
+添加的属性值是最小和最大缩放比，其实感觉没必要了，因为已经设置了初始化缩放比，不过还是提交测试了，
+
+意料之中，还是没用....
+
+之后上网终于找了一篇大佬文章，关于如何处理移动端调整字体大小问题的解决方案
+
+文章链接：https://www.cnblogs.com/axl234/p/7753187.html
+
+我下面的代码也是参考他的，不过自己有一些小改动，反正我的移动端页面已经适应了。[耶][耶][耶]
+
+###（注：需要注意的是每次调整手机字体大小后，需要重新刷新下页面才有效）
+
+```
+fontAdapt();
+
+function fontAdapt(){
+    /*适应移动端APP调整字体大小*/
+    (function() {
+        //新创建一个div元素，并设置该元素的字体大小
+        var $dom = document.createElement('div');
+        //移动端采用rem布局，所以设置新创建的元素字体单位为rem
+        //这里设置字体大小为10，方便后面计算
+        $dom.style = 'font-size:10rem;';
+        document.body.appendChild($dom);
+        //计算出新创建元素放大后的字体
+        var scaledFontSize = parseInt(window.getComputedStyle($dom, null).getPropertyValue('font-size'));
+        //移除新创建元素，以免影响页面布局
+        document.body.removeChild($dom);
+        //计算原字体和放大后字体的比例，原字体为10rem，取数字10，
+        var scaleFactor = 10 / scaledFontSize;
+        
+        //取出html元素字体的大小
+        //注意，这个大小也经过缩放了
+        var originRootFontSize = parseInt(window.getComputedStyle(document.documentElement, null).getPropertyValue('font-size'));
+        //通过上面的比例调整页面当前的字体大小，以适应移动端，单位为rem
+        document.documentElement.style.fontSize = originRootFontSize * scaleFactor + 'rem';
+    })();
+
+    /*适应手机端浏览器调整字体大小*/
+    (function(doc, win) {
+            //用原生方法获取用户设置的浏览器的字体大小(兼容ie)
+            if(doc.documentElement.currentStyle) {
+                var user_webset_font=doc.documentElement.currentStyle['fontSize'];
+            }
+            else {
+                var user_webset_font=getComputedStyle(doc.documentElement,false)['fontSize'];
+            }
+            //取整后与默认16px的比例系数
+            var xs=parseFloat(user_webset_font)/16;
+            //设置rem的js设置的字体大小
+            var view_jsset_font,result_font;
+            var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            clientWidth,
+            recalc = function() {
+                clientWidth = docEl.clientWidth;
+                if(!clientWidth) return;
+                if(!doc.addEventListener) return;
+                if(clientWidth<750){
+                    //设置rem的js设置的字体大小
+                    view_jsset_font=100 * (clientWidth / 750);
+                    //最终的字体大小为rem字体/系数
+                    result_font=view_jsset_font/xs;
+                    //设置根字体大小
+                    docEl.style.fontSize = result_font + 'px';
+                }
+                else{
+                    docEl.style.fontSize = 100 + 'px';
+                }
+            };
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+}
+```
+
 ### 上面是实习两个月期间做的一些项目，还有一些遇到的问题和解决方法，期间做的最多的还是帮公司改链接了...
 
 ### 当然，经过一段时间的实习，熟悉了公司对一个项目整体的开发流程，我公司是在gitlab上完成的，和github的操作基本一样，都是在git上完成。
