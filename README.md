@@ -70,7 +70,7 @@ $("body").delegate(".lxb-cb-input","blur",function(){
 
 同时调用了"scrollIntoView(true)"函数，这个函数传入true的意思是，当失去焦点时保持页面的顶部和
 
-浏览器的最上面平行，具体可以进入项目查看js代码，项目名称为:securities
+浏览器的最上面平行，具体可以进入项目查看js代码。项目名称为:securities
 
 ## 第四个问题：
 
@@ -112,7 +112,7 @@ $("body").delegate(".lxb-cb-input","blur",function(){
 
 我下面的代码也是参考他的，不过自己有一些小改动，反正我的移动端页面已经适应了。[耶][耶][耶]
 
-项目名称为：happyseason。
+项目名称为：happy
 
 ### （注：需要注意的是每次调整手机字体大小后，需要重新刷新下页面才有效）
 
