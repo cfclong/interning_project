@@ -1,0 +1,282 @@
+
+/*导航栏样式*/
+.header{
+    width:100%;
+    height:108px;
+    background-color:#e23b59;
+}
+@media (min-width:750px) and (max-width:1200px){
+    .header{
+        width:1200px;
+    }
+}
+.header .navbar-brand:first-child(1){
+    padding-left:0;
+    padding-right:0;
+}
+.edu{
+    display:block;
+    /*border:1px solid black;*/
+    font-size:23px;
+    height:108px;
+    line-height:30px;
+    padding-top:34px;
+    padding-left:10px;
+    padding-right:0;
+    width:140px;
+}
+.edu span{
+    color:white;
+    display:inline-block;
+    border-left:2px solid white;
+    height:30px;
+    padding-left:10px;
+}
+.nav .edu:hover{
+    color:white;
+}
+.header .navbar-right{
+    height:108px;
+}
+.header .navbar-right li{
+    /*height:100%;*/
+    /*border:1px solid black;*/
+    margin-right:20px;
+    font-size:23px;
+}
+.header .navbar-right li a{
+    display:block;
+    color:white;
+    line-height:68px;
+}
+.header .navbar-right li a:hover{
+    color:white;
+}
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+    margin-top:35px;
+}
+
+/**开课汇总**/
+.summary{
+    width:100%;
+    height:180px;
+    /*border:1px solid red;*/
+    overflow:hidden;
+}
+@media (min-width:750px) and (max-width:1200px){
+    .summary{
+        width:1200px;
+    }
+}
+.summary .container{
+    height:100%;
+    /*border:1px solid black;*/
+}
+.summary .container .pull-left p{
+    color:#888888;
+    font-size:25px;
+    margin-top:60px;
+    margin-left:10px;
+}
+.summary .container .pull-left div{
+    font-size:35px;
+    margin-left:10px;
+    margin-top:24px;
+}
+@media (max-width:750px){
+    .summary{
+        height:140px;
+    }
+    .summary .container .pull-left p{
+        margin-top:30px;
+        font-size:20px;
+    }
+    .summary .container .pull-left div{
+        margin-top:10px;
+        font-size:30px;
+    }
+}
+.summary .container .pull-left div span{
+    display:inline-block;
+    height:24px;
+    width:8px;
+    margin-right:14px;
+    background-color:#e23b59;
+}
+
+/*课程列表*/
+.course-list{
+    width:100%;
+    /*min-height:500px;*/
+    height:auto;
+    padding-bottom:40px;
+    margin:0 auto;
+}
+.course-list .container{
+    /*border:1px solid black;*/
+    height:auto;
+    width:100%;
+}
+@media (min-width:750px){
+    .course-list{
+        width:1200px;
+        margin:0 auto;
+    }
+}
+.course-list .container .list {
+    height:361px;
+    /*margin:20px auto;*/
+    background:url(../images/forex-bg.png) no-repeat center;
+    /* overflow: hidden; */
+}
+.course-list .container .list .list_left{
+    float:left;
+    width:544px;
+    height:100%;
+    padding-top:55px;
+    /*border-right:1px dashed #888888;*/
+    text-align:center;
+    margin-left:55px;
+    /*border:1px solid black;*/
+}
+.course-list .container .list .list_left img{
+    display:inline-block;
+    width:422px;
+    height:231px;
+}
+.course-list .container .list .list_right{
+    position:relative;
+    float:left;
+    width:532px;
+    height:100%;
+    padding-top:60px;
+    padding-left:50px;
+    /*border:1px solid red;*/
+}
+.course-list .container .list .list_right .list_text{
+    font-size:25px;
+    color:#444444;
+}
+.course-list .container .list .list_right .free{
+    margin-top:22px;
+    font-size:20px;
+}
+.course-list .container .list .list_right .free span:first-child{
+    color:#e23b59;
+    margin-right:10px;
+}
+.course-list .container .list .list_right .free span:last-child{
+    display:inline-block;
+    border-left:1px solid #888888;
+    color:#888888;
+    padding-left:10px;
+}
+.course-list .container .list .list_right .list_btn{
+    margin-top:48px;
+    height:38px;
+    width:340px;
+}
+.course-list .container .list .list_right .list_btn p{
+    color:white;
+    width:128px;
+    height:100%;
+    border-radius:4px;
+    background-color:#e23b59;
+    text-align:center;
+    line-height:38px;
+}
+.course-list .container .list .list_right .list_btn p:first-child{
+    float:left;
+}
+.course-list .container .list .list_right .list_btn p:last-child{
+    float:right;
+}
+.course-list .container .list .list_right .list_btn p a{
+    display:block;
+    width:100%;
+    height:100%;
+    font-size:18px;
+}
+.course-list .container .list .list_right .list_btn p a:hover{
+    color:white;
+    text-decoration:none;
+}
+/*.course-list .container .list img{
+    width:100%;
+    height:auto;
+    min-height:150px;
+}*/
+.course-list .container .list-m{
+    width:100%;
+    /*height:400px;*/
+    margin-top:10px;
+    /*border:1px solid red;*/
+    padding:10px;
+    box-shadow:1px 1px 10px #ccc;
+}
+.course-list .container .list-m .list-top{
+    width:100%;
+    height:auto;
+    /*border:1px solid green;*/
+}
+.course-list .container .list-m .list-top img{
+    width:100%;
+    height:auto;
+}
+.course-list .container .list-m .list-bottom{
+    width:100%;
+    height:150px;
+    /*border:1px solid black;*/
+}
+.course-list .container .list-m .list-bottom .pro{
+    font-size:16px;
+    font-weight:bold;
+    color:#444444;
+}
+.course-list .container .list-m .list-bottom .pro:first-child{
+    margin-top:20px;
+}
+.course-list .container .list-m .list-bottom .free-m{
+    margin-top:10px;
+    width:100%;
+    /*border:1px solid black;*/
+}
+.course-list .container .list-m .list-bottom .free-m span:first-child{
+    color:#e23b59;
+    margin-right:10px;
+}
+.course-list .container .list-m .list-bottom .free-m span:last-child{
+    display:inline-block;
+    border-left:1px solid #888888;
+    color:#888888;
+    padding-left:10px;
+}
+.course-list .container .list-m .list-bottom .list-btn-m{
+    margin-top:20px;
+    width:100%;
+    height:30px;
+    /*border:1px solid black;*/
+}
+.course-list .container .list-m .list-bottom .list-btn-m p{
+    color:white;
+    width:100px;
+    height:100%;
+    border-radius:4px;
+    background-color:#e23b59;
+    text-align:center;
+    line-height:30px;
+}
+.course-list .container .list-m .list-bottom .list-btn-m p:first-child{
+    float:left;
+    margin-left:20px;
+}
+.course-list .container .list-m .list-bottom .list-btn-m p:last-child{
+    float:right;
+    margin-right:20px;
+}
+.course-list .container .list-m .list-bottom .list-btn-m p a{
+    display:block;
+    width:100%;
+    height:100%;
+}
