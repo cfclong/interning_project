@@ -198,6 +198,10 @@
     height:100%;
     font-size:18px;
 }
+.course-list .container .list .list_right .list_btn p a:focus{
+    color:white;
+    text-decoration:none;
+}
 .course-list .container .list .list_right .list_btn p a:hover{
     color:white;
     text-decoration:none;
@@ -279,4 +283,12 @@
     display:block;
     width:100%;
     height:100%;
+}
+.course-list .container .list-m .list-bottom .list-btn-m p a:focus{
+    color:white;
+    text-decoration:none;
+}
+.course-list .container .list-m .list-bottom .list-btn-m p a:hover{
+    color:white;
+    text-decoration:none;
 }

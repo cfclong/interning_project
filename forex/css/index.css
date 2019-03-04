@@ -204,6 +204,10 @@
     color:white;
     text-decoration:none;
 }
+.course-list .container .list .list_right .list_btn p a:focus{
+    color:white;
+    text-decoration:none;
+}
 /*.course-list .container .list img{
     width:100%;
     height:auto;
@@ -283,4 +287,12 @@
     display:block;
     width:100%;
     height:100%;
+}
+.course-list .container .list-m .list-bottom .list-btn-m p a:focus{
+    color:white;
+    text-decoration:none;
+}
+.course-list .container .list-m .list-bottom .list-btn-m p a:hover{
+    color:white;
+    text-decoration:none;
 }

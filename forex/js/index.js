@@ -1,6 +1,6 @@
 
 //先声明一个数组存储课程列表
-//需要增加或删除课程，直接在数组里增加或删除就行
+//如果需要增加或删除课程，直接在数组courseArr里修改就行
 var courseArr = [
     {
         imgSrc: "./images/forex1.png",
@@ -74,22 +74,22 @@ var courseList = function() {
                                 </div>`;
             }else{
                 courseHtml += `<div class="list hidden-xs">
-                                <div class="list_left">
-                                    <img src="${value.imgSrc}" alt="">
-                                </div>
-                                <div class="list_right">
-                                    <p class="list_text">${value.text1}</p>
-                                    <p class="list_text">${value.text2}</p>
-                                    <div class="free">
-                                        <span>${value.free}</span>
-                                        <span>${value.teacher}</span>
+                                    <div class="list_left">
+                                        <img src="${value.imgSrc}" alt="">
                                     </div>
-                                    <div class="list_btn">
-                                        <p><a href="${value.link1}">${value.btn1}</a></p>
-                                        <p><a href="${value.link2}">${value.btn2}</a></p>
+                                    <div class="list_right">
+                                        <p class="list_text">${value.text1}</p>
+                                        <p class="list_text">${value.text2}</p>
+                                        <div class="free">
+                                            <span>${value.free}</span>
+                                            <span>${value.teacher}</span>
+                                        </div>
+                                        <div class="list_btn">
+                                            <p><a href="${value.link1}" target="_blank">${value.btn1}</a></p>
+                                            <p><a href="${value.link2}" target="_blank">${value.btn2}</a></p>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>`;
+                                </div>`;
             }
         });
         list.innerHTML = courseHtml;
