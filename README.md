@@ -1,7 +1,7 @@
 # interning_project
 本人在实习期间完成的项目，主要是一些专题页，活动页之类的，比较基础，用的是html+css+js，
 
-有用一些jQuery，，bootstrap，zepto，less，还有ajax和后台请求数据和移动端rem适配之类的，期间遇到的一些问题，会在下面讲到。
+有用一些jQuery，bootstrap，zepto，less，还有ajax和后台请求数据和移动端rem适配之类的，期间遇到的一些问题，会在下面讲到。
 
 ## 第一个问题：
 
