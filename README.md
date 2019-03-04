@@ -1,13 +1,15 @@
 # interning_project
 本人在实习期间完成的项目，主要是一些专题页，活动页之类的，比较基础，用的是html+css+js，
 
-有用一些jQuery，zepto，less，还有ajax和后台请求数据和移动端rem适配之类的，期间遇到的一些问题，会在下面讲到。
+有用一些jQuery，bootstrap，zepto，less，还有ajax和后台请求数据和移动端rem适配之类的，期间遇到的一些问题，会在下面讲到。
 
 ## 第一个问题：
 
 第一个实习项目就遇到一些问题，里面的样式排版还有些问题[捂脸][捂脸][捂脸]，主要是单选框那里，布局比较差，字体没有
 
 很好的居中，不过我知道了可以通过以下属性去除单选框原有的默认样式，自己设定样式，css代码如下：
+
+项目名称为：zqbeikao
 ```
 .mbs-exam-footer .chooseTest input[type="radio"]{
 
