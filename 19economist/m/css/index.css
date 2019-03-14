@@ -1,0 +1,221 @@
+/*主体容器*/
+.main-container{
+    margin:0 auto;
+    width:100%;
+    max-width:750px;
+    min-width:320px;
+    background-color:#fff1e6;
+}
+
+/*头部区域*/
+header{
+    width:100%;
+    height:1.12rem;
+    padding-top:0.25rem;
+    background-color:white;
+}
+header p{
+    display:inline-block;
+    vertical-align:middle;
+}
+header p:first-child{
+    width:1.65rem;
+    height:0.57rem;
+}
+header p:first-child img{
+    width:1.65rem;
+    height:0.57rem;
+}
+header p:last-child{
+    width:5.4rem;
+    height:0.64rem;
+    border-left:1px solid black;
+    margin-left:0.14rem;
+    padding-left:0.14rem;
+}
+header p:last-child img{
+    width:5.14rem;
+    height:0.64rem;
+}
+
+/*标题容器*/
+.title{
+    width:100%;
+    text-align:center;
+    height:1.9rem;
+    overflow:hidden;
+}
+.title p{
+    font-size:0.38rem;
+}
+.title p:first-child{
+    margin-top:0.54rem;
+}
+.title p:nth-child(2){
+    color:#e3604a;
+}
+.title p:last-child{
+    color:#95632e;
+    transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+}
+
+/*提交信息区域*/
+.sub-info{
+    width:94.66%;
+    max-width:7.1rem;
+    margin:0 auto;
+    min-height:1rem;
+    padding-bottom:1rem;
+}
+.sub-info .info-container{
+    position:relative;
+    width:7.1rem;
+    height:8.3rem;
+    z-index:0;
+    top:0.3rem;
+    /*border:1px solid black;*/
+    border-radius:0.1rem;
+    /*background-color:white;*/
+}
+.sub-info .info-container::before{
+    content:"";
+    display:block;
+    position:absolute;
+    width:6.7rem;
+    height:100%;
+    top:-0.2rem;
+    left:0.2rem;
+    opacity:0.5;
+    background-color:white;
+    box-shadow:1px 1px 10px #ccc;
+    border-radius:0.1rem;
+}.sub-info .info-container::after{
+    content:"";
+    display:block;
+    position:absolute;
+    width:6.9rem;
+    height:100%;
+    left:0.1rem;
+    opacity:0.7;
+    background-color:white;
+    box-shadow:1px 1px 10px #ccc;
+    border-radius:0.1rem;
+}
+.sub-info .info-container .choose-info{
+    position:absolute;
+    top:0.2rem;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:2;
+    border-radius:0.1rem;
+    background-color:white;
+    box-shadow:1px 1px 10px #ccc;
+    padding-left:0.16rem;
+}
+.sub-info .info-container .choose-info h3{
+    font-size:0.28rem;
+    margin-top:0.52rem;
+}
+.sub-info .info-container .choose-info ul{
+    margin-top:0.25rem;
+}
+.sub-info .info-container .choose-info ul li{
+    position:relative;
+    float:left;
+    width:1.46rem;
+    height:0.36rem;
+    /*border:1px solid black;*/
+    border-radius:0.18rem;
+    margin-right:0.26rem;
+}
+.sub-info .info-container .choose-info ul:nth-of-type(1) li{
+    width:1.76rem;
+}
+.sub-info .info-container .choose-info ul li input[type="radio"]{
+    position:absolute;
+    top:0;
+    left:0;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    border:1px solid #5f5f5f;
+    width:100%;
+    height:100%;
+    outline:none;
+    border-radius:0.18rem;
+}
+.sub-info .info-container .choose-info ul li input:checked{
+    background-color:#e3604a;
+    border:none;
+}
+.sub-info .info-container .choose-info ul li label{
+    position:absolute;
+    top:0;
+    left:0;
+    display:block;
+    font-size:0.23rem;
+    width:100%;
+    height:100%;
+    text-align:center;
+    color:#5f5f5f;
+    line-height:0.36rem;
+    border-radius:0.18rem;
+}
+.sub-info .info-container .choose-info .submit-info{
+    width:100%;
+    min-height:1rem;
+    /*border:1px solid black;*/
+    margin-top:0.6rem;
+}
+.sub-info .info-container .choose-info .submit-info .infobox{
+    width:100%;
+    height:0.56rem;
+    text-align:center;
+    margin-bottom:0.18rem;
+}
+.sub-info .info-container .choose-info .submit-info .infobox .info{
+    width:4.7rem;
+    height:100%;
+    outline:none;
+    background-color:#eeeeee;
+    font-size:0.24rem;
+    padding-left:0.34rem;
+    border-radius:0.28rem;
+    border:1px solid #eeeeee;
+}
+.sub-info .info-container .choose-info .submit-info .infobox .submit{
+    width:4.86rem;
+    height:100%;
+    background-color:#e3604a;
+    color:white;
+    font-size:0.29rem;
+    border-radius:0.28rem;
+    outline:none;
+    border:1px solid #e3604a;
+}
+.sub-info .info-container .choose-info p{
+    width:100%;
+    font-size:0.23rem;
+    color:#eb6a42;
+    text-align:center;
+}
+
+/*尾部区域*/
+footer{
+    width:100%;
+    height:1rem;
+    /*border:1px solid black;*/
+}
+footer .copyright{
+    width:7.1rem;
+    line-height:1rem;
+    margin:0 auto;
+    border-top:1px solid white;
+    font-size:0.17rem;
+    text-align:center;
+}
