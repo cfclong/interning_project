@@ -1,0 +1,577 @@
+
+/**网校导航栏**/
+header{
+    width:100%;
+    height:116px;
+    background-color:#071441;
+}
+header nav{
+    width:1200px;
+    height:100%;
+    margin:0 auto;
+}
+header nav img:first-child{
+    width:140px;
+    height:48px;
+    margin-top:32px;
+}
+header nav ul {
+    float:left;
+    margin-top:48px;
+    margin-left:68px;
+    /*border:1px solid blue;*/
+}
+header nav ul li{
+    float:left;
+    margin-right:30px;
+    color:white;
+    font-size:22px;
+    cursor:pointer;
+}
+header nav ul li:last-child{
+    height:40px;
+}
+header nav ul li:last-child span{
+    float:left;
+}
+header nav ul li:last-child img{
+    float:left;
+    margin-top:0;
+    width:46px;
+    height:33px;
+}
+header nav ul li:hover{
+    color:#de2719;
+}
+header nav img:last-child{
+    margin-top:36px;
+    cursor:pointer;
+}
+
+/**2019中级经济师报名服务平台**/
+.service-plat{
+   height:673px;
+   text-align:center;
+   background:url(../images/banner.png) no-repeat center;
+}
+.service-plat .red-btn{
+    display:inline-block;
+    width:268px;
+    height:60px;
+    margin-top:454px;
+    border-radius:30px;
+    background-color:#de2719;
+    color:white;
+    font-size:35px;
+    text-align:center;
+    line-height:60px;
+    cursor:pointer;
+    margin-left:38px;
+}
+.service-plat .red-btn:first-child{
+    margin-left:0;
+}
+
+/**2019中级经济师报名须知**/
+.register{
+    height:677px;
+    background:url(../images/register.png) no-repeat center;
+    text-align:center;
+}
+.register .reg-btn{
+    display:inline-block;
+    width:184px;
+    height:40px;
+    border:1px solid #de2719;
+    border-radius:20px;
+    color:#de2719;
+    text-align:center;
+    line-height:40px;
+    font-size:24px;
+    transition:all 1s;
+    margin-top:510px;
+    margin-left:94px;
+    cursor:pointer;
+}
+.register .reg-btn:hover{
+    color:white;
+    background-color:#de2719;
+}
+.register .reg-btn:first-child{
+    margin-left:0;
+}
+
+/**2019中级经济师信息公示**/
+.publicity{
+    height:812px;
+    background:url(../images/publicity.png) no-repeat center;
+}
+.publicity .publicity-container{
+    position:relative;
+    width:1120px;
+    height:100%;
+    margin:0 auto;
+    /*border:1px solid black;*/
+}
+.publicity .publicity-container .publicity-box{
+    position:absolute;
+    bottom:66px;
+    left:0;
+    width:100%;
+    height:554px;
+    /*border:1px solid black;*/
+}
+.publicity .publicity-container .publicity-box div{
+    float:left;
+}
+.publicity .publicity-container .publicity-box .box-left{
+    width:820px;
+    height:100%;
+    padding-right:20px;
+}
+.publicity .publicity-container .publicity-box .box-left .box-left-top{
+    width:100%;
+    height:252px;
+    border-bottom:1px solid #ccc;
+    padding-bottom:20px;
+}
+.publicity .publicity-container .publicity-box .box-left .box-left-top .box-left-img{
+    position:relative;
+    float:left;
+    width:299px;
+    height:100%;
+    cursor:pointer;
+}
+.publicity .publicity-container .publicity-box .box-left .box-left-top .box-left-img img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:299px;
+    height:253px;
+}
+.publicity .publicity-container .publicity-box .box-left .box-left-top .box-left-img .bottom-text{
+    position:absolute;
+    bottom:0;
+    width:298px;
+    height:48px;
+    color:white;
+    font-size:22px;
+    text-align:center;
+    line-height:48px;
+    background-color:#de2719;
+}
+.publicity .publicity-container .publicity-box .box-left .box-left-top .box-left-img .bottom-text span{
+    margin-left:6px;
+}
+.publicity .publicity-container .publicity-box .box-left .box-left-top .box-right-text{
+    width:484px;
+    height:100%;
+    float:right;
+    /*border:1px solid red;*/
+}
+.box-top{
+    width:100%;
+    height:52px;
+    color:white;
+    font-size:22px;
+    line-height:52px;
+    background-color:#071441;
+}
+.box-top span:first-child{
+    margin-left:10px;
+}
+.box-top span:last-child{
+    float:right;
+    background-color:#192a64;
+    width:40px;
+    height:100%;
+    text-align:center;
+}
+.publicity .publicity-container .publicity-box .box-left .box-left-top .box-right-text .box-right-bottom{
+    width:100%;
+    height:202px;
+    overflow:hidden;
+}
+.publicity .publicity-container .publicity-box .box-left .box-left-top .box-right-text .box-right-bottom p{
+    font-size:20px;
+    margin-top:12px;
+    margin-bottom:0;
+    overflow:hidden;
+}
+.publicity .publicity-container .publicity-box .box-left .box-left-top .box-right-text .box-right-bottom p span:first-child{
+    color:#8a8a8a;
+    margin-right:6px;
+}
+.publicity .publicity-container .publicity-box .box-left .box-left-top .box-right-text .box-right-bottom p span:nth-child(2):hover{
+    color:#de2719;
+    cursor:pointer;
+}
+.publicity .publicity-container .publicity-box .box-left .box-left-bottom{
+    width:100%;
+    height:250px;
+    margin-top:22px;
+    /*border:1px solid red;*/
+}
+.publicity .publicity-container .publicity-box .box-left .box-left-bottom .box-bottom-btn{
+    width:100%;
+    height:194px;
+    /*border:1px solid green;*/
+    margin-top:6px;
+}
+.publicity .publicity-container .publicity-box .box-left .box-left-bottom .box-bottom-btn .list-text{
+    width:100%;
+    height:30px;
+    /*border:1px solid red;*/
+    margin-top:10px;
+    font-size:20px;
+    line-height:30px;
+}
+.publicity .publicity-container .publicity-box .box-left .box-left-bottom .box-bottom-btn .list-text span:first-child{
+    color:#8a8a8a;
+}
+.publicity .publicity-container .publicity-box .box-left .box-left-bottom .box-bottom-btn .list-text span:nth-child(2):hover{
+    cursor:pointer;
+    color:#de2719;
+}
+.publicity .publicity-container .publicity-box .box-left .box-left-bottom .box-bottom-btn .list-text span:last-child{
+    float:right;
+    height:30px;
+    background-color:#de2719;
+    color:white;
+    width:120px;
+    font-size:16px;
+    text-align:center;
+    border-radius:15px;
+    cursor:pointer;
+}
+.hot{
+    display:inline-block;
+    vertical-align:middle;
+}
+.publicity .publicity-container .publicity-box .box-right{
+    width:220px;
+    height:100%;
+    padding-left:20px;
+    padding-right:20px;
+    border-left:1px solid #ccc;
+}
+.publicity .publicity-container .publicity-box .box-right ul{
+    width:100%;
+    margin-top:22px;
+}
+.publicity .publicity-container .publicity-box .box-right ul li{
+    float:left;
+    cursor:pointer;
+    color:#8a8a8a;
+    font-size:21px;
+    width:108px;
+    height:40px;
+    text-align:center;
+}
+.publicity .publicity-container .publicity-box .box-right ul li span{
+    display:block;
+    width:100%;
+    height:22px;
+    line-height:22px;
+}
+.publicity .publicity-container .publicity-box .box-right ul li:nth-child(2n) span{
+    border-left:1px solid #ccc;
+}
+.publicity .publicity-container .publicity-box .box-right ul li:hover{
+    color:#de2719;
+}
+
+/**2019中级经济师含金量**/
+.quality{
+    height:877px;
+    background:url(../images/quality.png) no-repeat center;
+    overflow:hidden;
+}
+.quality .quality-box{
+    width:1088px;
+    height:254px;
+    /*border:1px solid black;*/
+    margin:244px auto 0;
+    overflow:hidden;
+}
+.quality .quality-box:nth-child(2){
+    margin-top:40px;
+}
+.quality .quality-box .common{
+    float:left;
+    width:522px;
+    height:100%;
+    /*border:1px solid red;*/
+}
+.quality-left-img{
+    float:left;
+    width:230px;
+    height:100%;
+    background-color:#071441;
+    text-align:center;
+    cursor:pointer;
+    line-height:252px;
+    transition:0.8s;
+    margin-top:2px;
+}
+.quality-left-img:hover{
+    background-color:#de2719;
+}
+.quality-left-img img{
+    display:inline-block;
+    margin-top:100px;
+    width:77px;
+    height:67px;
+}
+.quality-right-text{
+    position:relative;
+    float:right;
+    width:258px;
+    height:222px;
+    padding:15px;
+    /*border:1px solid green;*/
+}
+.quality-right-text h2{
+    font-size:26px;
+}
+.quality-right-text p{
+    font-size:22px;
+    color:#8a8a8a;
+    margin-top:10px;
+}
+.quality-right-text span{
+    position:absolute;
+    bottom:20px;
+    color:#071441;
+    font-size:20px;
+    cursor:pointer;
+    font-weight:bold;
+}
+.quality-right-text span:hover{
+    color:#de2719;
+}
+.quality .quality-box .quality-right{
+    margin-left:38px;
+}
+
+/**2019中级经济师考试重大改革**/
+.innovation{
+    height:673px;
+    background:url(../images/innovation.png) no-repeat center;
+    overflow:hidden;
+}
+.innovation .innovation-box{
+    width:1104px;
+    height:398px;
+    margin:216px auto 0;
+    /*border:1px solid black;*/
+}
+.innovation .innovation-box .innovation-list{
+    position:relative;
+    display:inline-block;
+    height:100%;
+    width:256px;
+    overflow:hidden;
+    margin-left:-2px;
+    /*border:1px solid red*/
+} 
+.innovation .innovation-box .innovation-list:nth-child(n+2){
+    margin-left:22px;
+}
+.innovation .innovation-box .innovation-list:nth-child(2){
+    margin-left:21px;
+}
+.innovation .innovation-box .innovation-list .innovation-img{
+    position:absolute;
+    top:-398px;
+    width:100%;
+    height:100%;
+    transition:1s;
+    /*border:1px solid red;*/
+}
+.innovation .innovation-box .innovation-list .innovation-img img{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.innovation .innovation-box .innovation-list .innovation-img .innovation-btn{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:62px;
+    margin:auto;
+    width:182px;
+    cursor:pointer;
+    height:38px;
+    border-radius:19px;
+    /*border:1px solid black;*/
+}
+.innovation .innovation-box .innovation-list:hover .innovation-img{
+    top:0px;
+}
+
+/**助学计划**/
+.helpStu{
+    height:382px;
+    background:url(../images/helpStu.png) no-repeat center;
+    overflow:hidden;
+}
+.helpStu .helpStu-box{
+    width:1110px;
+    height:100%;
+    margin:0 auto;
+}
+.helpStu .helpStu-box .helpStu-btn{
+    width:364px;
+    height:64px;
+    /*border:1px solid black;*/
+    border-radius:32px;
+    margin:257px auto 0;
+    cursor:pointer;
+}
+
+/**中级经济师专业选择**/
+.choose{
+    height:752px;
+    background:url(../images/choose.png) no-repeat center;
+    overflow:hidden;
+}
+.choose .choose-box{
+    width:1110px;
+    height:492px;
+    margin:182px auto 0;
+    /*border:1px solid black;*/
+}
+.choose .choose-box ul{
+    float:right;
+    height:100%;
+    width:664px;
+    /*border:1px solid red;*/
+}
+.choose .choose-box ul li{
+    float:left;
+    width:190px;
+    height:60px;
+    font-size:23px;
+    text-align:center;
+    line-height:56px;
+    border-radius:6px;
+    margin-left:22px;
+    margin-top:28px;
+    transition:0.6s;
+    cursor:pointer;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+}
+.choose .choose-box ul li:nth-child(2n){
+    border:2px solid #071441;
+    color:#071441;
+}
+.choose .choose-box ul li:nth-child(2n):hover{
+    background-color:#071441;
+    color:white;
+}
+.choose .choose-box ul li:nth-child(2n+1){
+    border:2px solid #de2719;
+    color:#de2719;
+}
+.choose .choose-box ul li:nth-child(2n+1):hover{
+    background-color:#de2719;
+    color:white;
+}
+
+/**免费下载资料专区**/
+.free-info{
+    height:529px;
+    background:url(../images/free-info.png) no-repeat center;
+    overflow:hidden;
+}
+.free-info .free-info-box{
+    width:1100px;
+    height:134px;
+    margin:312px auto 0;
+    /*border:1px solid black;*/
+}
+.free-info .free-info-box .free-info-list{
+    position:relative;
+    float:left;
+    width:156px;
+    height:98px;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+    background-color:white;
+    margin-left:70px;
+    color:black;
+    text-align:center;
+    margin-top:16px;
+    border-radius:10px;
+}
+.free-info .free-info-box .free-info-list:first-child{
+    margin-left:96px;
+}
+.free-info .free-info-box .free-info-list span{
+    font-size:24px;
+    margin:0;
+}
+.free-info .free-info-box .free-info-list::before{
+    content:"";
+    position:absolute;
+    top:-24px;
+    left:62px;
+    display:block;
+    /*background-color:black;*/
+    border-left:12px solid transparent;
+    border-right:12px solid transparent;
+    border-top:12px solid transparent;
+    border-bottom:12px solid white;
+}
+.free-info .free-info-box .free-info-list:first-child::before{
+    left:84px;
+}
+.free-info .free-info-box .free-info-list:nth-child(2)::before{
+    left:86px;
+}
+.free-info .free-info-box .free-info-list:nth-child(3)::before{
+    left:80px;
+}
+.free-info .free-info-box .free-info-list:hover {
+    background-color:red;
+    color:white;
+}
+.free-float{
+    display:none;
+}
+.free-info .free-info-box .free-info-list:hover .free-float{
+    display:block;
+}
+.free-info .free-info-box .free-info-list:hover .free-text{
+    display:none;
+}
+.free-info .free-info-box .free-info-list:hover::before{
+    border-bottom:12px solid red;
+}
+
+/**签约通关保障**/
+.guarantee{
+    height:840px;
+    background:url(../images/guarantee.png) no-repeat center;
+}
+
+/**网校底部**/
+footer{
+    width:100%;
+    height:96px;
+    background-color:#071441;
+    text-align:center;
+    line-height:96px;
+    color:white;
+    font-size:20px;
+}
+footer span:nth-child(3){
+    margin-left:20px;
+    margin-right:36px;
+}
